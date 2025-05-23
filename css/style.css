@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #fff8f0;
+    color: #2e1d12;
+    background-color: #8B4513;
+}
+
+.top {
+    background-color: #8B4513;
+    /* marrom escuro */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.top-titulo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.top-titulo h1 {
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.img img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.container-secondary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.content-container-secondary {
+  padding: 30px;
+  color: #fff;
+  max-width: 800px;
+  text-align: center;
+}
+
+.content-container-secondary h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.content-container-secondary p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.cardapio a{
+  text-decoration: none;
+    color: #fff;
+}
+.cardapio:hover{
+    text-decoration: underline;
+    color: #fff;
+}

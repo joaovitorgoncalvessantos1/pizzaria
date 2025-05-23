@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sabor é Ponto</title>
-    <link rel="stylesheet" href="style.css"> <!-- Lembre de criar esse arquivo depois -->
-</head>
-<body>
 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sabor é Ponto</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mediaquery.css" />
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon" />
+</head>
+
+<body>
     <header class="top">
         <div class="top-titulo">
-            <img src="img/favicon-32x32.png" alt="Ícone da pizzaria">
+            <img src="img/favicon-32x32.png" alt="Ícone da pizzaria" />
             <h1>Sabor é Ponto</h1>
         </div>
         <nav>
             <ul>
-                <li><a href="index.html">Início</a></li>
                 <li><a href="cardapio.html">Cardápio</a></li>
+                <li>
+                    <a href="#"><i class="bi bi-whatsapp"></i></a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -24,13 +31,7 @@
     <main class="content">
         <section class="container">
             <div class="img">
-                <img src="img/pizza.jpeg" alt="Pizza saborosa">
-            </div>
-
-            <div class="cardapio">
-                <a href="cardapio.html">
-                    <p>Ver Cardápio</p>
-                </a>
+                <img src="img/pizza.jpeg" alt="Pizza saborosa" />
             </div>
         </section>
 
@@ -38,11 +39,20 @@
             <div class="content-container-secondary">
                 <h2>Sobre nós</h2>
                 <p>
-                    Bem-vindo à Sabor é Ponto! Somos apaixonados por criar deliciosas pizzas com ingredientes frescos e de alta qualidade. Nossa receita tradicional conquista o paladar de todos. Venha nos visitar e aproveite cada pedaço!
+                    Bem-vindo à Sabor é Ponto! Somos apaixonados por criar deliciosas
+                    pizzas com ingredientes frescos e de alta qualidade. Nossa receita
+                    tradicional conquista o paladar de todos. Venha nos visitar e
+                    aproveite cada pedaço!
                 </p>
+            </div>
+
+            <div class="cardapio">
+                <a href="cardapio.html" target="_blank">
+                    <p>Ver Cardápio</p>
+                </a>
             </div>
         </section>
     </main>
-
 </body>
+
 </html>
